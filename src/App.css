@@ -1,0 +1,35 @@
+.app-heading {
+	font-weight: 700;
+	color: #52543a;
+	font-size: 40px;
+	background-image: url(/450-DSA/src/image/MYDSA.png);
+}
+.App {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	transition: all 0.3s ease-in-out;
+}
+.dark {
+	background-color: #3e3861;
+	color: white;
+}
+
+@media screen and (max-width: 480px) {
+	.app-heading {
+		font-size: 30px;
+	}
+	.app-heading2 {
+		font-size: 20px;
+	}
+}
+
+.emojiFix {
+	font-weight: 100 !important;
+}
+.logoDSA{
+	width: 190px;
+	
+	/* margin-right:5px; */
+}
+
